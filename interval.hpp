@@ -11,14 +11,6 @@
 
 #define TILE_WIDTH 16
 
-// __device__ float __fadd_rd(float a, float b);
-// __device__ float __fadd_ru(float a, float b);
-// __device__ float __fmul_rd(float a, float b);
-// __device__ float __fmul_ru(float a, float b);
-// __device__ float __fdiv_rd(float a, float b);
-// __device__ float fminf(float a, float b);
-// __device__ float fmaxf(float a, float b);
-
 namespace basic_ops
 {
     template<typename T> inline __device__ T add_down  (T x, T y);
